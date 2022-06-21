@@ -22,8 +22,8 @@ export function TaskCreator({ createNewTask }) {
           />
         </div>
 
-        <div className = "col-3">
-          <button className="btn btn-primary btn-sm " > Guardar Tarea </button>
+        <div className = "col-3 p-1">
+          <button className="btn btn-primary btn-sm" > Guardar  </button>
         </div>
       </form>
     </div>

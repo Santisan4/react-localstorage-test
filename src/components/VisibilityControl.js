@@ -4,7 +4,7 @@ export const VisibilityControl = ({
   cleanTasks,
 }) => {
   const handleDelete = () => {
-    if (window.confirm("Are you sure you want to delete it?")) {
+    if (window.confirm("¿Estas seguro que desea eliminarlas?")) {
       cleanTasks();
     }
   };
