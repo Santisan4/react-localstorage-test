@@ -15,7 +15,7 @@ export function TaskCreator({ createNewTask }) {
         <div className = "col-9" >
           <input
             type="text"
-            placeholder="Enter a new task"
+            placeholder="Nueva Tarea"
             value={newTaskName}
             onChange={(e) => setNewTaskName(e.target.value)}
             className= "form-control"
@@ -23,7 +23,7 @@ export function TaskCreator({ createNewTask }) {
         </div>
 
         <div className = "col-3">
-          <button className="btn btn-primary btn-sm " > Save Task </button>
+          <button className="btn btn-primary btn-sm " > Guardar Tarea </button>
         </div>
       </form>
     </div>
